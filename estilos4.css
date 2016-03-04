@@ -1,0 +1,36 @@
+.contenedor{
+	width:960px;
+	margin:0 auto;
+}
+.menu-lista{
+   list-style-type:none;
+   margin:10px;
+   padding:20px;
+}
+.menu-item{
+   display:inline-block;
+}
+nav{
+	text-align:center;
+}
+.menu-link{
+	font-size:18px;
+	background:orange;
+	color:white;
+	padding: 10px;
+	border-radius:10px;
+	text-decoration:none;
+}
+.menu-link:hover{
+ text-decoration:underline;
+ box-shadow:5px 5px 15px blue;
+ transition:0.5s;
+}
+.img{
+	border:3px solid yellow;
+}
+.img:hover{
+	box-shadow:10px 10px 20px white;
+	cursor:pointer;
+	transition:2s;
+}
